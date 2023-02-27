@@ -52,7 +52,7 @@ let result = setInterval(() => {
   let dinoBottom = parseInt(getComputedStyle(dino).getPropertyValue("bottom"));
   let blockLeft = parseInt(getComputedStyle(block).getPropertyValue("left"));
 
-  if (dinoBottom <= 90 && blockLeft >= 20 && blockLeft <= 145) {
+  if (dinoBottom <= 50 && blockLeft >= 20 && blockLeft <= 145) {
 
     clearInterval(interval)
     gameOver.style.display = "block";
